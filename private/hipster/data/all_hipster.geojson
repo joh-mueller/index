@@ -1,0 +1,1975 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.00155219,40.72150631 ]
+    },
+    "properties": {
+    "name":"Le Pain Quotidien"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.01141247,40.7152018 ]
+    },
+    "properties": {
+    "name":"Kaffe 1668"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98681688,40.73671619 ]
+    },
+    "properties": {
+    "name":"Irving Farm Coffee Roasters"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99382114,40.72641318 ]
+    },
+    "properties": {
+    "name":"The Smile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9647077,40.71599199 ]
+    },
+    "properties": {
+    "name":"Devoci—n"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99517676,40.72227958 ]
+    },
+    "properties": {
+    "name":"Gimme! Coffee"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9956515,40.7212535 ]
+    },
+    "properties": {
+    "name":"Epistrophy"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9968635,40.72042534 ]
+    },
+    "properties": {
+    "name":"Cafe Roma"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.003854,40.719829 ]
+    },
+    "properties": {
+    "name":"La Colombe Torrefaction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.00306863,40.74918564 ]
+    },
+    "properties": {
+    "name":"Restore"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99019328,40.71570519 ]
+    },
+    "properties": {
+    "name":"Meow Parlour"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.00226235,40.73014864 ]
+    },
+    "properties": {
+    "name":"Molly's Cupcakes"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.96431,40.715717 ]
+    },
+    "properties": {
+    "name":"Passatempo"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.95868609,40.71291062 ]
+    },
+    "properties": {
+    "name":"Serita Coffee"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.95819036,40.7217284 ]
+    },
+    "properties": {
+    "name":"Kinfolk 90"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.95733511,40.7282801 ]
+    },
+    "properties": {
+    "name":"Le Gamin"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.95639858,40.74682558 ]
+    },
+    "properties": {
+    "name":"Sweetleaf"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.953835,40.742568 ]
+    },
+    "properties": {
+    "name":"Cafe Henri - LIC"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.95534217,40.74233926 ]
+    },
+    "properties": {
+    "name":"51st Bakery & Cafe"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98886129,40.75344115 ]
+    },
+    "properties": {
+    "name":"Cafe Hestia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.002115,40.758373 ]
+    },
+    "properties": {
+    "name":"Concourse Cafe"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99745286,40.72248189 ]
+    },
+    "properties": {
+    "name":"JOE & THE JUICE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.01168734,40.70626843 ]
+    },
+    "properties": {
+    "name":"Bluestone Lane Coffee Shop"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.01388083,40.70810292 ]
+    },
+    "properties": {
+    "name":"Boundless Plains Espresso"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.01001529,40.72084943 ]
+    },
+    "properties": {
+    "name":"Kaffe 1668"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.00686313,40.73053119 ]
+    },
+    "properties": {
+    "name":"Merriweather"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.00362387,40.73138016 ]
+    },
+    "properties": {
+    "name":"The Doughnut Project"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.00804653,40.73913973 ]
+    },
+    "properties": {
+    "name":"Kava Cafe"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9878158,40.73755869 ]
+    },
+    "properties": {
+    "name":"Daily Provisions"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98793108,40.74099682 ]
+    },
+    "properties": {
+    "name":"Gasoline Alley Coffee"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99281198,40.73971941 ]
+    },
+    "properties": {
+    "name":"Gotham Coffee Roasters"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99835741,40.74278782 ]
+    },
+    "properties": {
+    "name":"Cafe Grumpy"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99965584,40.7297428 ]
+    },
+    "properties": {
+    "name":"Vbar"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98279294,40.72706283 ]
+    },
+    "properties": {
+    "name":"Three Seat Espresso & Barber"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.97863847,40.72908445 ]
+    },
+    "properties": {
+    "name":"The Roost"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.93332787,40.705385 ]
+    },
+    "properties": {
+    "name":"Swallow CafŽ"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.96592993,40.71375153 ]
+    },
+    "properties": {
+    "name":"Freehold"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.96217867,40.71310489 ]
+    },
+    "properties": {
+    "name":"Oslo Coffee Roasters"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.959174,40.718012 ]
+    },
+    "properties": {
+    "name":"Toby's Estate Coffee"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.951934,40.716798 ]
+    },
+    "properties": {
+    "name":"Reunion Cafe"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98414,40.753027 ]
+    },
+    "properties": {
+    "name":"Blue Bottle Coffee"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98807914,40.74586373 ]
+    },
+    "properties": {
+    "name":"Stumptown Coffee Roasters"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.97541546,40.75200385 ]
+    },
+    "properties": {
+    "name":"Cafe Grumpy"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.97682395,40.75425165 ]
+    },
+    "properties": {
+    "name":"Toby's Estate Coffee"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.95131613,40.6892637 ]
+    },
+    "properties": {
+    "name":"Civil Service Coffee Bar & Kitchen"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98881974,40.72314335 ]
+    },
+    "properties": {
+    "name":"The Lazy Llama Coffee Bar"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.00876588,40.71278651 ]
+    },
+    "properties": {
+    "name":"Bits & Bites"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.01010325,40.71739445 ]
+    },
+    "properties": {
+    "name":"Laughing Man Coffee & Tea"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.00520281,40.7332941 ]
+    },
+    "properties": {
+    "name":"McNulty's Tea & Coffee Co"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.0008503,40.73159397 ]
+    },
+    "properties": {
+    "name":"Washington Square Diner"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.95549262,40.69072303 ]
+    },
+    "properties": {
+    "name":"Colador Cafe"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99894953,40.71794455 ]
+    },
+    "properties": {
+    "name":"Taiyaki NYC"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98695631,40.71437496 ]
+    },
+    "properties": {
+    "name":"Ice & Vice"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99041119,40.67207185 ]
+    },
+    "properties": {
+    "name":"Four & Twenty Blackbirds"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.95793319,40.71754203 ]
+    },
+    "properties": {
+    "name":"Bagelsmith Bedford"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.998327,40.720222 ]
+    },
+    "properties": {
+    "name":"Maman"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98390592,40.66796401 ]
+    },
+    "properties": {
+    "name":"Colson Patisserie"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.00031349,40.73388123 ]
+    },
+    "properties": {
+    "name":"Dominique Bistro"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.95521746,40.73633016 ]
+    },
+    "properties": {
+    "name":"Milk & Roses"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.94984216,40.72229683 ]
+    },
+    "properties": {
+    "name":"Enid's"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.01354759,40.67679024 ]
+    },
+    "properties": {
+    "name":"Fort Defiance"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98567528,40.75205035 ]
+    },
+    "properties": {
+    "name":"Culture Espresso"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.91709,40.702712 ]
+    },
+    "properties": {
+    "name":"Variety Coffee Roasters"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.9903181,40.68666806 ]
+    },
+    "properties": {
+    "name":"Van Leeuwen Artisan Ice Cream"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99779886,40.721683 ]
+    },
+    "properties": {
+    "name":"CafŽ Select"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.94444436,40.71542774 ]
+    },
+    "properties": {
+    "name":"Variety Coffee Roasters"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.97471476,40.68025666 ]
+    },
+    "properties": {
+    "name":"Hungry Ghost"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.99045931,40.68667059 ]
+    },
+    "properties": {
+    "name":"Regular Visitors"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.00196433,40.72428495 ]
+    },
+    "properties": {
+    "name":"Ground Support"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.90755542,40.77392367 ]
+    },
+    "properties": {
+    "name":"Martha's Country Bakery"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.93122643,40.69757761 ]
+    },
+    "properties": {
+    "name":"Little Skips"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.988271,40.74582 ]
+    },
+    "properties": {
+    "name":"Ace Hotel Lobby Bar"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4380243,37.77632882 ]
+    },
+    "properties": {
+    "name":"The Mill"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4215341,37.76085939 ]
+    },
+    "properties": {
+    "name":"Craftsman and Wolves"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4108985,37.77701167 ]
+    },
+    "properties": {
+    "name":"Vive La Tarte"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.416227,37.78504536 ]
+    },
+    "properties": {
+    "name":"Hooker's Sweet Treats"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4093162,37.79968366 ]
+    },
+    "properties": {
+    "name":"Mara's Italian Pastry"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4225435,37.74171418 ]
+    },
+    "properties": {
+    "name":"Cafe St. Jorge"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4662384,37.76311517 ]
+    },
+    "properties": {
+    "name":"Snowbird Coffee"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4378447,37.77508533 ]
+    },
+    "properties": {
+    "name":"Bean Bag Cafe"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4189009,37.75851299 ]
+    },
+    "properties": {
+    "name":"LaundrŽ"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4198388,37.75542412 ]
+    },
+    "properties": {
+    "name":"Revolution Cafe"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.43443,37.761104 ]
+    },
+    "properties": {
+    "name":"RŽveille Coffee Co."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3939376,37.79590476 ]
+    },
+    "properties": {
+    "name":"Blue Bottle Coffee"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.393308,37.78281095 ]
+    },
+    "properties": {
+    "name":"Small Foods"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4040499,37.79128669 ]
+    },
+    "properties": {
+    "name":"Foundation Cafe"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.407699,37.782474 ]
+    },
+    "properties": {
+    "name":"Blue Bottle Coffee"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4172746,37.77656007 ]
+    },
+    "properties": {
+    "name":"The Market"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4109585,37.77447787 ]
+    },
+    "properties": {
+    "name":"VEGA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.409196,37.790201 ]
+    },
+    "properties": {
+    "name":"Beanstalk Cafe"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.419092,37.7395469 ]
+    },
+    "properties": {
+    "name":"Pinhole Coffee"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4501601,37.76962561 ]
+    },
+    "properties": {
+    "name":"Stanza Coffee Bar"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4366789,37.79687457 ]
+    },
+    "properties": {
+    "name":"Wrecking Ball Coffee Roasters"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4219586,37.76702439 ]
+    },
+    "properties": {
+    "name":"Four Barrel Coffee"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.421146,37.756501 ]
+    },
+    "properties": {
+    "name":"Ritual Coffee Roasters"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.414309,37.752355 ]
+    },
+    "properties": {
+    "name":"Philz Coffee"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4218066,37.76455992 ]
+    },
+    "properties": {
+    "name":"Muddy Waters"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4028462,37.79193646 ]
+    },
+    "properties": {
+    "name":"JOE & THE JUICE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4011953,37.79108077 ]
+    },
+    "properties": {
+    "name":"Coffee Cultures"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4147169,37.77608919 ]
+    },
+    "properties": {
+    "name":"Coffee Cultures"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4104191,37.7795184 ]
+    },
+    "properties": {
+    "name":"Saint Frank"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.41321,37.80229299 ]
+    },
+    "properties": {
+    "name":"Beacon Coffee & Pantry"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4073387,37.79867046 ]
+    },
+    "properties": {
+    "name":"Caffe Trieste"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4055885,37.79720357 ]
+    },
+    "properties": {
+    "name":"RŽveille Coffee Co."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.42481,37.77717823 ]
+    },
+    "properties": {
+    "name":"Loving Cup"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4182081,37.78068749 ]
+    },
+    "properties": {
+    "name":"The Coffee Smith"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4081923,37.7528258 ]
+    },
+    "properties": {
+    "name":"St. Francis Fountain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4600897,37.78321027 ]
+    },
+    "properties": {
+    "name":"Eats"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4146508,37.75249297 ]
+    },
+    "properties": {
+    "name":"Sun Rise Restaurant"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.395467,37.762516 ]
+    },
+    "properties": {
+    "name":"Plow"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4034667,37.79037063 ]
+    },
+    "properties": {
+    "name":"Homage"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.4236077,37.77163767 ]
+    },
+    "properties": {
+    "name":"It's Tops Coffee Shop"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8449496,1.281655759 ]
+    },
+    "properties": {
+    "name":"Tong Heng Confectionery"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.9069445,1.307303075 ]
+    },
+    "properties": {
+    "name":"Chin Mee Chin Confectionery"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8340486,1.283728341 ]
+    },
+    "properties": {
+    "name":"Drips Bakery Cafe"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8345017,1.284268835 ]
+    },
+    "properties": {
+    "name":"Chapter 55"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8302694,1.282683923 ]
+    },
+    "properties": {
+    "name":"Forty Hands"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8603742,1.311675382 ]
+    },
+    "properties": {
+    "name":"Chye Seng Huat Hardware Coffee Bar"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.840715,1.278215 ]
+    },
+    "properties": {
+    "name":"The Populus Coffee & Food Co."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8592039,1.303981113 ]
+    },
+    "properties": {
+    "name":"Symmetry"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.847253,1.28009 ]
+    },
+    "properties": {
+    "name":"My Awesome CafŽ"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8400732,1.276657209 ]
+    },
+    "properties": {
+    "name":"Nylon Coffee Roasters"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8302707,1.28279488 ]
+    },
+    "properties": {
+    "name":"Creamier"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.848224,1.282272 ]
+    },
+    "properties": {
+    "name":"Free the Robot"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.846153,1.277735 ]
+    },
+    "properties": {
+    "name":"Alchemist"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.842525,1.28002 ]
+    },
+    "properties": {
+    "name":"Botanist"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.833727,1.285829 ]
+    },
+    "properties": {
+    "name":"Tiong Bahru Bakery"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.864016,1.302078 ]
+    },
+    "properties": {
+    "name":"The Great Escape"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.847285,1.280159 ]
+    },
+    "properties": {
+    "name":"Park Bench Deli"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.847292,1.287948 ]
+    },
+    "properties": {
+    "name":"RONIN"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.848817,1.302102 ]
+    },
+    "properties": {
+    "name":"Twenty Eight CafŽ"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.846679,1.280628 ]
+    },
+    "properties": {
+    "name":"Dapper Coffee"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.841784,1.277591 ]
+    },
+    "properties": {
+    "name":"Essen @ The Pinnacle"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.861068,1.304838 ]
+    },
+    "properties": {
+    "name":"Tolido's Espresso Nook"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.848004,1.281978 ]
+    },
+    "properties": {
+    "name":"Sarnies"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.843448,1.278793 ]
+    },
+    "properties": {
+    "name":"Group Therapy"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.919496,1.314467 ]
+    },
+    "properties": {
+    "name":"Dutch Colony Coffee Co."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3355591,47.6072758 ]
+    },
+    "properties": {
+    "name":"Sweet Iron Waffles"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3463637,47.61690089 ]
+    },
+    "properties": {
+    "name":"Uptown Espresso"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3387153,47.62248652 ]
+    },
+    "properties": {
+    "name":"Kakao"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.334151,47.60276737 ]
+    },
+    "properties": {
+    "name":"Cherry Street Coffee House"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.312776,47.62209879 ]
+    },
+    "properties": {
+    "name":"The Wandering Goose"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3195344,47.61488631 ]
+    },
+    "properties": {
+    "name":"Oddfellows Cafe & Bar"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.317003,47.61203642 ]
+    },
+    "properties": {
+    "name":"Stumptown Coffee Roasters"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3470683,47.61831138 ]
+    },
+    "properties": {
+    "name":"Cherry Street Coffee House"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3553226,47.62273161 ]
+    },
+    "properties": {
+    "name":"La Marzocco Cafe"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3515698,47.61626578 ]
+    },
+    "properties": {
+    "name":"Cherry Street Coffee House"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3245651,47.61415161 ]
+    },
+    "properties": {
+    "name":"Kaladi Brothers Coffee"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.312907,47.62236368 ]
+    },
+    "properties": {
+    "name":"Victrola"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3212561,47.62519629 ]
+    },
+    "properties": {
+    "name":"Roy Street Coffee & Tea"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3570476,47.63847233 ]
+    },
+    "properties": {
+    "name":"Homegrown"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3370916,47.62126134 ]
+    },
+    "properties": {
+    "name":"Brave Horse Tavern"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3438146,47.61379302 ]
+    },
+    "properties": {
+    "name":"FOB Poke Bar"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3451304,47.6148917 ]
+    },
+    "properties": {
+    "name":"Biscuit Bitch - Belltown"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3370861,47.61067156 ]
+    },
+    "properties": {
+    "name":"Yard House"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3233996,47.6141577 ]
+    },
+    "properties": {
+    "name":"Salt & Straw"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.2989049,47.59913845 ]
+    },
+    "properties": {
+    "name":"Reckless Noodle House"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.3350389,47.6033499 ]
+    },
+    "properties": {
+    "name":"Fade Irish Pub & Restaurant"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.289325,47.612324 ]
+    },
+    "properties": {
+    "name":"Pure Manifestations"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.076502949,51.52453887 ]
+    },
+    "properties": {
+    "name":"The Albion"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.154615792,51.51878109 ]
+    },
+    "properties": {
+    "name":"The Monocle Café"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.134211208,51.51779541 ]
+    },
+    "properties": {
+    "name":"TAP Coffee No. 26"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.130348162,51.51335783 ]
+    },
+    "properties": {
+    "name":"Maison Bertaux"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.091346655,51.50474612 ]
+    },
+    "properties": {
+    "name":"The Breakfast Club"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.108028822,51.52648344 ]
+    },
+    "properties": {
+    "name":"Coin Laundry"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.077635047,51.52571147 ]
+    },
+    "properties": {
+    "name":"Bulldog Edition"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.078100218,51.52731266 ]
+    },
+    "properties": {
+    "name":"Old Shoreditch Station"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.08096413,51.53711764 ]
+    },
+    "properties": {
+    "name":"The Barge House"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.042883618,51.53342134 ]
+    },
+    "properties": {
+    "name":"Pavilion Cafe"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.127653558,51.4948055 ]
+    },
+    "properties": {
+    "name":"Sapori Cafe & Restaurant"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.150624053,51.51506584 ]
+    },
+    "properties": {
+    "name":"Feya"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.118280935,51.51311013 ]
+    },
+    "properties": {
+    "name":"The Delaunay"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.126223749,51.48486584 ]
+    },
+    "properties": {
+    "name":"Brunswick House Cafe"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.098729517,51.49324811 ]
+    },
+    "properties": {
+    "name":"Chatica"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.096524913,51.48984841 ]
+    },
+    "properties": {
+    "name":"Cafe House"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.057837996,51.53739881 ]
+    },
+    "properties": {
+    "name":"Morty & Bob's"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.13828397,51.51212 ]
+    },
+    "properties": {
+    "name":"Soho Grind"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.136011,51.496791 ]
+    },
+    "properties": {
+    "name":"Iris & June"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.114853133,51.50661332 ]
+    },
+    "properties": {
+    "name":"Benugo Bar & Kitchen"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.13604735,51.51897316 ]
+    },
+    "properties": {
+    "name":"Lantana Cafe"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.112051585,51.5197045 ]
+    },
+    "properties": {
+    "name":"Catalyst Cafe"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.081281696,51.49935817 ]
+    },
+    "properties": {
+    "name":"F*ckoffee"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.088280522,51.51727918 ]
+    },
+    "properties": {
+    "name":"Wild & Wood Coffee"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.08782817,51.52578103 ]
+    },
+    "properties": {
+    "name":"Shoreditch Grind"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.096896804,51.52391527 ]
+    },
+    "properties": {
+    "name":"look mum no hands!"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.078882466,51.52101364 ]
+    },
+    "properties": {
+    "name":"Department of Coffee & Social Affairs"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.075017726,51.52095793 ]
+    },
+    "properties": {
+    "name":"Brooklyn Coffee"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.071543945,51.52382378 ]
+    },
+    "properties": {
+    "name":"Kahaila"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.158129315,51.52322675 ]
+    },
+    "properties": {
+    "name":"Saint Espresso"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.061136803,51.53743478 ]
+    },
+    "properties": {
+    "name":"Climpson & Sons"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.05662538,51.52741157 ]
+    },
+    "properties": {
+    "name":"Second Shot"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.07461392,51.49887975 ]
+    },
+    "properties": {
+    "name":"Coffee, mate?"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.09148,51.505536 ]
+    },
+    "properties": {
+    "name":"Monmouth Coffee Company"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.096528297,51.48663095 ]
+    },
+    "properties": {
+    "name":"Perks and White"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.083066386,51.47435865 ]
+    },
+    "properties": {
+    "name":"Brewbird"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.069587231,51.47375189 ]
+    },
+    "properties": {
+    "name":"Peckham DewDrop"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.13372344,51.51298617 ]
+    },
+    "properties": {
+    "name":"Bar Bruno"
+    }
+  }
+]
+}

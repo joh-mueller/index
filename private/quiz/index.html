@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset=utf-8 />
+<title>Bottles around the world</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+<script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' /> 
+<link rel="stylesheet" href="./css/quiz_style.css"/>
+<link rel=icon href="./images/world_bottle_fav.png">
+</head>
+
+<body>
+
+
+<div id='map'></div>
+
+
+<div class="quiz-container">
+	<!--<div id="image-container"><img id="photo" src="./images/Bromo.jpg"></div>-->
+  	<div id="quiz"></div>
+  		<button id="start">Let's start!</button>
+		<button id="previous"> << </button>
+		<div id="progress"> <div id="bar"></div> </div>
+		<button id="next"> >> </button>
+		<button id="submit">Submit</button>
+
+	<div id="results"></div>
+
+</div>
+
+
+<script src='js/mapboxapi.js'></script>
+<script src='js/quiz.js'> </script>
+
+
+</body>
+</html>

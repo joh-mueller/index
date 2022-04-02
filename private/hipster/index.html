@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- https://www.mapbox.com/help/gl-dds-map-tutorial/#define-quantiles -->
+<html>
+<head>
+  <meta charset='utf-8'/>
+  <title>Hipsters vs Starbucks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
+  <link href='css/hipster-vis.css' rel='stylesheet' />
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/jquery.modal.css" type="text/css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <script src="js/jquery.modal.js"></script>
+  <link rel="shortcut icon" type="image/png" href="images/cup-fav.png">
+</head>
+
+<body>
+<header id="global-nav">
+    <div id="cup">
+		<img src='images/cup.svg'>
+	</div>
+    <div id="title">
+        <a href="javascript:window.location.href=window.location.href">Hipsters vs Starbucks</a>
+    </div>
+    <div id='global-menu-container'>
+        <a href="#ex1" rel="modal:open">about</a>
+    </div>
+</header>
+
+<!-- Main contents start -->
+<main id="contents">
+    <div id="map-container">
+    <div id="map"></div>
+    <!-- Dashboard on the left  -->
+      <div id="dashboard-container">
+        <div id="legend-container" class="legend">
+          <ul class="coffee">
+            <li><span x="10" y="40"n class="dot" id="l_hipster"></span>Hipster Cafe</li>
+            <li><span class="dot" id="l_starbucks"></span>Starbucks</li>
+          </ul>
+        </div>
+
+        <div id='button-container'>
+          <button class='city-button active' id='nyc-button'>
+                <div class="button-text">
+                <text> NYC </text>
+                </div>
+                <div class='icon-box'>
+                  <img src="images/nyc.svg" class='h60-svg'>
+                </div>
+          </button>
+
+          <button class='city-button' id='sfc-button'>
+                <div class="button-text">
+                <text> SFC </text>
+                </div>
+                <div class='icon-box'>
+                  <img src="images/sfc.svg" class='h55-svg'>
+                </div>
+          </button>
+
+          <button class='city-button' id='sea-button'>
+                <div class="button-text">
+                <text> SEA </text>
+                </div>
+                <div class='icon-box'>
+                    <img src="images/sea.svg" class='h60-svg'>
+                    </div>
+          </button>
+
+          <button class='city-button' id='ldn-button'>
+                <div class="button-text">
+                <text> LDN </text>
+                </div>
+                <div class='icon-box'>
+                  <img src="images/ldn.svg" class='h60-svg'>
+                </div>
+          </button>
+          <button class='city-button' id='sgp-button'>
+                <div class="button-text">
+                <text> SGP </text>
+                </div>
+                <div class='icon-box'>
+                  <img src="images/sgp.svg" class='h55-svg'>
+                </div>
+          </button>
+        </div>
+      
+        <div id="heatmap-container">
+          <button id='heatmap-button'>Heatmap</button>
+        </div>
+      </div>
+      
+
+    </div>
+    <!-- Dashboard ends -->
+    <script src='js/mapboxapi.js'></script>
+    
+    <!-- <div class="text-container">
+
+    </div> -->
+    <br>
+    <br>
+    <br>
+
+  
+    <div class="modal" id="ex1">
+        <a href="#" rel="modal:close"><i class="fas fa-times"></i></a>
+        <h3>About the project</h3>
+        <p class="body-text">
+          The idea to compare locations of Starbucks coffeeshops with hipster cafes arose from the observation that those two kinds of coffee places are usually not located in the same areas.<br><br>
+          But what makes a cafe a hipster location? We used the Foursquare API to access reviews from users that mention the keyword 'hipster'. The heatmaps show indeed that cafes that are rated hip tend to be off the main stream locations where Starbucks coffeeshops are settled.<br><br>
+          The website shows the power of visualisation of geo-referenced data without larger explanation of statistical details. The visitors can make their own image and interpretation of the data set.<br>
+        <div class="row">
+          <div class="column">
+            <div class=picture>
+              <img src="images/sa.png" width=100% id="img_sh">
+            </div>
+            <div class="personal">
+              <h5><a href='http://www.shihoasada.com' target=”_blank”>Shiho Asada</a></h5>
+              <h6>Design Hipster</h6>
+            </div>
+          </div>
+          <div class="column">
+            <div class=picture>
+              <img src="images/jm.png" width=100% id="img_jo">
+            </div>
+            <div class="personal">
+              <h5><a href='http://www.fcl.ethz.ch/people/Researchers/JohannesMueller.html' target=”_blank”>Dr Johannes Müller</a></h5>
+              <h6>Post-Doctoral Hipster</h6>
+            </div>
+          </div>
+        </div>
+    </div>
+</div> 
+<!-- Main contents finish -->
+
+<!--<footer id="footer"></footer>-->
+</body>
+</html>

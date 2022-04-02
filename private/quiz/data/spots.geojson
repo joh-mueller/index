@@ -1,0 +1,138 @@
+
+{
+    "type": "FeatureCollection",
+    "features": [ 
+        {
+        "type":"Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [151.2150147,-33.8563387]
+        	},
+        "properties": {
+            "name": "Sydney, Australia",
+            "icon": "circle",
+            "id": 1
+            }
+        },
+        {
+        "type":"Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [145.2707086,-15.4767001]
+        },
+        "properties": {
+            "name": "Cooktown, Australia",
+            "icon": "circle",
+            "id": 2
+            }
+        },
+        {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [177.1077901,-17.6756623]
+            },
+        "properties": {
+            "name": "Mana Island, Mananuka, Fiji",
+            "icon": "circle",
+            "id": 3
+            }
+        },
+        {
+        "type":"Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [174.7686289,-36.8410781]
+        },
+        "properties": {
+            "name": "Auckland, New Zealand",
+            "icon": "circle",
+            "id": 4
+            }
+        },
+        {
+        "type":"Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [168.3574358,-46.6132702]
+        },
+        "properties": {
+            "name": "Stirling Point, New Zealand",
+            "icon": "circle",
+            "id": 5
+            }
+        },
+        {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [170.0217146,-43.4643569]
+            },
+        "properties": {
+            "name": "Fox Glacier, New Zealand",
+            "icon": "circle",
+            "id": 6
+            }
+        },
+        {
+        "type":"Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [172.6784559,-40.5024788]
+        },
+        "properties": {
+            "name": "Wharariki Beach, New Zealand",
+            "icon": "circle",
+            "id": 7
+            }
+        },
+        {
+        "type":"Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-159.7872981,-21.2108503]
+        },
+        "properties": {
+            "name": "Te Rua Manga, Cook Islands",
+            "icon": "circle",
+            "id": 8
+            }
+        },
+        {
+        "type":"Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-151.735929,-16.5425422]
+        },
+        "properties": {
+            "name": "Matira, Bora Bora, French Polynesia",
+            "icon": "circle",
+            "id": 9
+            }
+        },
+        {
+        "type":"Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-157.8292758,21.2765217]
+        },
+        "properties": {
+            "name": "Waikiki Beach, Oahu, USA",
+            "icon": "circle",
+            "id": 10
+            }
+        },
+        {
+        "type":"Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-118.3532471,34.1377579]
+        },
+        "properties": {
+            "name": "Hollywood, USA",
+            "icon": "circle",
+            "id": 11
+            }
+        }
+    ]
+}
