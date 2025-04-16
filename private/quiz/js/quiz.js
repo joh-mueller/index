@@ -268,6 +268,13 @@
           speed: 0.5
         });
       }
+      // Clear highlight layer when moving to next slide
+      if (window.map && map.getSource('highlight')) {
+        map.getSource('highlight').setData({
+          type: "FeatureCollection",
+          features: []
+        });
+      }
     }
 
     // Fortschrittsanzeige
