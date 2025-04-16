@@ -14,52 +14,43 @@ window.map = new mapboxgl.Map({
 
 map.on('load', function () {
  
-    map.addLayer({
-    id: "points",
-    type: "circle",
-    source: {
-        "type": "geojson",
-        "data": './data/spots.geojson'
-        },
+  // ✅ Step 1: Add source with ID "points"
+  map.addSource('points', {
+    type: 'geojson',
+    data: './data/spots.geojson'
+  });
+
+  // ✅ Step 2: Add layer using that source
+  map.addLayer({
+    id: 'points',
+    type: 'circle',
+    source: 'points',
     paint: {
-        "circle-color":"#279"
+      'circle-color': '#279'
+    }
+  });
+
+  // ✅ Step 3: Store the source reference globally
+  window.pointsSource = map.getSource('points');
+
+  // ✅ Step 4: Popups
+  const popup = new mapboxgl.Popup({ closeButton: false, closeOnClick: false });
+
+  map.on('mouseenter', 'points', function (e) {
+    const coordinates = e.features[0].geometry.coordinates.slice();
+    const name = e.features[0].properties.name;
+    map.getCanvas().style.cursor = 'pointer';
+
+    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+      coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
     }
 
-    });
+    popup.setLngLat(coordinates).setHTML(name).addTo(map);
+  });
 
-    var popup = new mapboxgl.Popup({closeButton:false,closeOnClick:false})
-
-    map.on('mouseenter', 'points', function (e) {
-        var coordinates = e.features[0].geometry.coordinates.slice();
-        var name = e.features[0].properties.name;
-        map.getCanvas().style.cursor = 'pointer';
-
-        // Ensure that if the map is zoomed out such that multiple
-        // copies of the feature are visible, the popup appears
-        // over the copy being pointed to.
-        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-        }
-     
-        popup.setLngLat(coordinates)
-            .setHTML(name)
-            .addTo(map);
-    });
-
-    // Change it back to a pointer when it leaves.
-    map.on('mouseleave', 'points', function () {
-        map.getCanvas().style.cursor = '';
-        popup.remove();
-    });
-
-    map.on('load', function () {
-        // existing code...
-      
-        window.pointsSource = map.getSource('points');
-      });
-    /*map.on('click','points',function (e) {
-        var pointIdentifier = e.features[0].properties.id
-        //document.getElementById('pointID').innerHTML = pointIdentifier;
-    });*/
+  map.on('mouseleave', 'points', function () {
+    map.getCanvas().style.cursor = '';
+    popup.remove();
+  });
 
 });
