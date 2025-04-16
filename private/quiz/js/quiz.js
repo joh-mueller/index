@@ -349,7 +349,7 @@
 
       // Zoom to correct map location if mapId exists
       if (currentQuestion.mapId !== undefined && window.map) {
-        fetch("./data/spots.geojson")
+        fetch("../data/spots.geojson")
           .then((response) => response.json())
           .then((data) => {
             const feature = data.features.find(f => f.properties.id === currentQuestion.mapId);
@@ -361,9 +361,17 @@
                 speed: 1.2,
                 essential: true
               });
+              // ✅ Highlight the feature
+              const highlightSource = map.getSource('highlight');
+              if (highlightSource) {
+                highlightSource.setData({
+                  type: "FeatureCollection",
+                  features: [feature]
+          });
             } else {
               console.warn("Feature not found for mapId:", currentQuestion.mapId);
             }
+
           })
           .catch(err => console.error("GeoJSON fetch error:", err));
       }
