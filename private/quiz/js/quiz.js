@@ -315,7 +315,7 @@
         });
     
         if (selected.value === currentQuestion.correctAnswer) {
-          selected.parentElement.style.backgroundColor = "#DD6E42";
+          selected.parentElement.style.backgroundColor = "#758E4F";
           if (!answeredQuestions.has(questionNumber)) {
             numCorrect++;
             answeredQuestions.add(questionNumber);
@@ -324,7 +324,7 @@
           selected.parentElement.style.backgroundColor = "#D62246";
           const correctOption = answerContainer.querySelector(`input[value="${currentQuestion.correctAnswer}"]`);
           if (correctOption) {
-            correctOption.parentElement.style.backgroundColor = "#DD6E42";
+            correctOption.parentElement.style.backgroundColor = "#758E4F";
           }
     
           if (!answeredQuestions.has(questionNumber)) {
