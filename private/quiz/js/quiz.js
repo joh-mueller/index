@@ -333,11 +333,19 @@
             const feature = data.features.find(f => f.properties.id === currentQuestion.mapId);
             if (feature) {
               const [lng, lat] = feature.geometry.coordinates;
-              console.log(map.flyTo({
+              map.flyTo({
                 center: [lng, lat],
                 zoom: 5,
                 speed: 0.8
-              }));
+                });
+              // ✅ Highlight the feature
+              const highlightSource = map.getSource('highlight');
+              if (highlightSource) {
+                highlightSource.setData({
+                  type: "FeatureCollection",
+                  features: [feature]
+                });
+              }
             }
           });
       }
@@ -361,13 +369,6 @@
                 speed: 1.2,
                 essential: true
               });
-              // ✅ Highlight the feature
-              const highlightSource = map.getSource('highlight');
-              if (highlightSource) {
-                highlightSource.setData({
-                  type: "FeatureCollection",
-                  features: [feature]
-          });
             } else {
               console.warn("Feature not found for mapId:", currentQuestion.mapId);
             }
