@@ -45,6 +45,10 @@ font-style: bold;
 
 
 body{
+  background-image: "images/world_bottle.svg";
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   font-size: 14px;
   font-family: 'Laila-Regular', sans-serif;
   color: #333;
@@ -79,8 +83,29 @@ button{
   z-index:2;
 }
 
+#start,
+#next {
+  position: absolute;
+  bottom: 3.2%;
+  right: 10%;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 8px;
+  background-color: #227799;
+  color: white;
+  cursor: pointer;
+  z-index: 4;
+}
+
+#start:hover,
+#next:hover {
+  background-color: #115577;
+}
+
+
 #previous{
-  position:absolute;
+  position:absolut;
   left:10%;
   bottom:2%;
 }
@@ -113,16 +138,50 @@ button:hover{
 
 .quiz-container {
   position: absolute;
-  left:2%;
-  bottom:5%;
-  height:76%;
-  width:56%;
-  padding:2%;
-  background-color: #ADD8E6DD;
+  left: 5%;
+  bottom: 5%;
+  height: auto;
+  width: 90%;
   max-width: 400px;
-  min-width: 350px;
-  min-height: 500px;
-  overflow:hidden;
+  min-width: 320px;
+  min-height: 600px;
+  padding: 2%;
+  background-color: #ADD8E6DD;
+  overflow: hidden;
+  z-index: 3; /* Damit es sicher über der Map liegt */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Visuelle Trennung */
+  border-radius: 10px;
+}
+
+/* Bei kleineren Geräten: Container zentrieren und eventuell scrollbar machen */
+@media screen and (max-width: 600px) {
+  .quiz-container {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    padding: 4%;
+    min-height: unset;
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+
+  button {
+    position: absolute;
+    display: block;
+    margin: 10px auto;
+  }
+
+  #progress {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    background-color: #22779900; /* transparenter Hintergrund */
+    border-radius: 3px;
+    padding: 2px;
+    z-index: 2;
+  }
 }
 
 .intro{
@@ -131,7 +190,7 @@ button:hover{
   padding:5%;
   text-align:center;
   font-family: OleoScript-Bold;
-  font-size: 200%;
+  font-size: clamp(1.2em, 3vw, 2em);
 }
 
 .photo {
@@ -142,7 +201,7 @@ button:hover{
   padding-right: 10%;
   width:80%;
   height:50%;
-  max-height:333px;
+  max-height: 400px;
 }
 
 #pic{
@@ -150,20 +209,22 @@ button:hover{
 }
 
 .info{
-  text-align: justify;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 8%;
-  width: 80%;
-  height: 20%;
+  text-align: left;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: clamp(0.5em, 2.5vw, 1.2em);
 }
 
-.question{
-  font-size: 18px;
-  text-align:left;
-  /*margin-bottom: 10px;*/
-  position:relative;
+.question {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
 }
+
 .answers {
   /*margin-bottom: 20px;*/
   text-align: left;
@@ -180,33 +241,34 @@ button:hover{
 
 #progress {
   position:absolute;
-  width: 40%;
+  width: 70%;
   background-color: #22779900;
   border-radius: 3px;
   padding: 2px;
-  left:30%;
-  right:30%;
+  left:15%;
+  right:15%;
   bottom: 3.2%;
-
   z-index:2;
 }
 
 #bar {
   width: 0;
   height: 20px;
-  background-color: #F1F1F100;
-  position:relative;
-  z-index:3;
+  background-color: #F1F1F1FF; /* Sichtbare Farbe */
+  position: relative;
+  z-index: 3;
+  transition: width 0.3s ease;
 }
 
 
 #results{
   position: relative;
+  margin-top: 0%;
   height:20px;
   width:100%;
   text-align: center;
   font-family: OleoScript-Bold;
-  font-size: 200%;
+  font-size: 150%;
 }
 
 
