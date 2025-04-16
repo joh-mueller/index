@@ -330,7 +330,7 @@
         fetch('./data/spots.geojson')
           .then(res => res.json())
           .then(data => {
-            const feature = data.features.find(f => f.properties.name === currentQuestion.mapId);
+            const feature = data.features.find(f => f.properties.id === currentQuestion.mapId);
             if (feature) {
               const [lng, lat] = feature.geometry.coordinates;
               map.flyTo({
