@@ -53,4 +53,41 @@ map.on('load', function () {
     popup.remove();
   });
 
+  map.addSource("highlight", {
+    type: "geojson",
+    data: {
+      type: "FeatureCollection",
+      features: []
+    }
+  });
+  
+  map.addLayer({
+    id: "highlight-circle",
+    type: "circle",
+    source: "highlight",
+    paint: {
+      "circle-radius": 12,
+      "circle-color": "#e63946",
+      "circle-stroke-width": 2,
+      "circle-stroke-color": "#fff"
+    }
+  });
+  
+  map.addLayer({
+    id: "highlight-label",
+    type: "symbol",
+    source: "highlight",
+    layout: {
+      "text-field": ["get", "name"],
+      "text-size": 14,
+      "text-offset": [0, 1.5],
+      "text-anchor": "top"
+    },
+    paint: {
+      "text-color": "#000",
+      "text-halo-color": "#fff",
+      "text-halo-width": 1.5
+    }
+  });
+
 });
