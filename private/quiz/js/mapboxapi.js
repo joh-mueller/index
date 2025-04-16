@@ -19,7 +19,7 @@ map.on('load', function () {
     type: "circle",
     source: {
         "type": "geojson",
-        "data": './data/spots.geojson'
+        "data": '../data/spots.geojson'
         },
     paint: {
         "circle-color":"#279"
