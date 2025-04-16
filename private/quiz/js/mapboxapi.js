@@ -66,10 +66,10 @@ map.on('load', function () {
     type: "circle",
     source: "highlight",
     paint: {
-      "circle-radius": 12,
-      "circle-color": "#e63946",
+      "circle-radius": 10,
+      "circle-color": "#758E4F",
       "circle-stroke-width": 2,
-      "circle-stroke-color": "#fff"
+      "circle-stroke-color": "#F8F6F0"
     }
   });
   
@@ -84,8 +84,8 @@ map.on('load', function () {
       "text-anchor": "top"
     },
     paint: {
-      "text-color": "#000",
-      "text-halo-color": "#fff",
+      "text-color": "#115577",
+      "text-halo-color": "#F8F6F0",
       "text-halo-width": 1.5
     }
   });
