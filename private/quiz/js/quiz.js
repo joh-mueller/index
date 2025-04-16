@@ -25,7 +25,8 @@
         d: "Waikiki Beach, Oahu, USA"
       },
       id: "1/11",
-      correctAnswer: "b"
+      correctAnswer: "b",
+      mapId: 3
     },
     {
       intro:"",
@@ -39,7 +40,8 @@
         d: "Wharariki Beach, New Zealand"
       },
       id: "2/11",
-      correctAnswer: "d"
+      correctAnswer: "d",
+      mapId: 7
     },
     {
       intro:"",
@@ -53,7 +55,8 @@
         d: "Stirling Point, New Zealand"
       },
       id: "3/11",
-      correctAnswer: "c"
+      correctAnswer: "c",
+      mapId: 4
     },
     {
       intro:"",
@@ -67,7 +70,8 @@
         d: "Wharariki Beach, New Zealand"
       },
       id: "4/11",
-      correctAnswer: "b"
+      correctAnswer: "b",
+      mapId: 6
     },
     {
       intro:"",
@@ -81,7 +85,8 @@
         d: "Te Rua Manga, Cook Islands"
       },
       id: "5/11",
-      correctAnswer: "b"
+      correctAnswer: "b",
+      mapId: 9
     },
     {
       intro:"",
@@ -95,7 +100,8 @@
         d: "Cooktown, Australia"
       },
       id: "6/11",
-      correctAnswer: "c"
+      correctAnswer: "c",
+      mapId: 11
     },
     {
       intro:"",
@@ -109,7 +115,8 @@
         d: "Te Rua Manga, Cook Islands"
       },
       id: "7/11",
-      correctAnswer: "c"
+      correctAnswer: "c",
+      mapId: 5
     },
     {
       intro:"",
@@ -123,7 +130,8 @@
         d: "Te Rua Manga, Cook Islands"
       },
       id: "8/11",
-      correctAnswer: "d"
+      correctAnswer: "d",
+      mapId: 8
     },
     {
       intro:"",
@@ -137,7 +145,8 @@
         d: "Sydney, Australia"
       },
       id: "9/11",
-      correctAnswer: "a"
+      correctAnswer: "a",
+      mapId: 2
     },
     {
       intro:"",
@@ -151,7 +160,8 @@
         d: "Auckland, New Zealand"
       },
       id: "10/11",
-      correctAnswer: "a"
+      correctAnswer: "a",
+      mapId: 10
     },
     {
       intro:"",
@@ -165,7 +175,8 @@
         d: "Auckland, New Zealand"
       },
       id: "11/11",
-      correctAnswer: "c"
+      correctAnswer: "c",
+      mapId: 1
     }
   ];
 
@@ -250,6 +261,13 @@
   function showNextSlide() {
     if (currentSlide < slides.length - 1) {
       showSlide(currentSlide + 1);
+      if (window.map) {
+        map.flyTo({
+          center: [137, -8],
+          zoom: 2,
+          speed: 0.5
+        });
+      }
     }
 
     // Fortschrittsanzeige
@@ -285,22 +303,18 @@
       const answerContainer = answerContainers[questionNumber];
       const allOptions = answerContainer.querySelectorAll("label");
   
-      // Reset styles
       allOptions.forEach(label => {
         label.style.backgroundColor = "";
       });
   
-      // Mark selected answer red or green
       if (selected.value === currentQuestion.correctAnswer) {
-        selected.parentElement.style.backgroundColor = "#44AF69"; // Green
+        selected.parentElement.style.backgroundColor = "#44AF69";
         if (!answeredQuestions.has(questionNumber)) {
           numCorrect++;
           answeredQuestions.add(questionNumber);
         }
       } else {
-        selected.parentElement.style.backgroundColor = "#D62246"; // Red
-  
-        // Also highlight the correct answer
+        selected.parentElement.style.backgroundColor = "#D62246";
         const correctOption = answerContainer.querySelector(`input[value="${currentQuestion.correctAnswer}"]`);
         if (correctOption) {
           correctOption.parentElement.style.backgroundColor = "#44AF69";
@@ -311,12 +325,30 @@
         }
       }
   
-      // ✅ Automatically show results if this is the last question
+      // ✅ Highlight correct location on the map
+      if (currentQuestion.mapId && window.map && window.pointsSource) {
+        fetch('./data/spots.geojson')
+          .then(res => res.json())
+          .then(data => {
+            const feature = data.features.find(f => f.properties.name === currentQuestion.mapId);
+            if (feature) {
+              const [lng, lat] = feature.geometry.coordinates;
+              map.flyTo({
+                center: [lng, lat],
+                zoom: 5,
+                speed: 0.8
+              });
+            }
+          });
+      }
+  
+      // ✅ Show results on last slide
       if (questionNumber === myQuestions.length - 1) {
         showResults();
       }
     }
   });
+  
 
   // Buttons aktivieren
   startButton.addEventListener("click", showNextSlide);
