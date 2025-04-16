@@ -346,6 +346,27 @@
       if (questionNumber === myQuestions.length - 1) {
         showResults();
       }
+
+      // Zoom to correct map location if mapId exists
+      if (currentQuestion.mapId !== undefined) {
+        fetch("./data/spots.geojson")
+          .then((response) => response.json())
+          .then((data) => {
+            const feature = data.features.find(f => f.properties.id === currentQuestion.mapId);
+            if (feature) {
+              const coords = feature.geometry.coordinates;
+              map.flyTo({
+                center: coords,
+                zoom: 6,
+                speed: 1.2,
+                essential: true
+              });
+            } else {
+              console.warn("Feature not found for mapId:", currentQuestion.mapId);
+            }
+          })
+          .catch(err => console.error("GeoJSON fetch error:", err));
+      }
     }
   });
   
