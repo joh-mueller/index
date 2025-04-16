@@ -333,11 +333,11 @@
             const feature = data.features.find(f => f.properties.id === currentQuestion.mapId);
             if (feature) {
               const [lng, lat] = feature.geometry.coordinates;
-              map.flyTo({
+              console.log(map.flyTo({
                 center: [lng, lat],
                 zoom: 5,
                 speed: 0.8
-              });
+              }));
             }
           });
       }
@@ -348,8 +348,8 @@
       }
 
       // Zoom to correct map location if mapId exists
-      if (currentQuestion.mapId !== undefined) {
-        fetch("./data/spots.geojson")
+      if (currentQuestion.mapId !== undefined && window.map) {
+        fetch("../data/spots.geojson")
           .then((response) => response.json())
           .then((data) => {
             const feature = data.features.find(f => f.properties.id === currentQuestion.mapId);
