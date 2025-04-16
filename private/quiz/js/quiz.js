@@ -349,7 +349,7 @@
 
       // Zoom to correct map location if mapId exists
       if (currentQuestion.mapId !== undefined && window.map) {
-        fetch("../data/spots.geojson")
+        fetch("./data/spots.geojson")
           .then((response) => response.json())
           .then((data) => {
             const feature = data.features.find(f => f.properties.id === currentQuestion.mapId);
