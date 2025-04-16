@@ -13,64 +13,23 @@ window.map = new mapboxgl.Map({
 
 
 map.on('load', function () {
-    map.addSource("points", {
-        type: "geojson",
-        data: "../data/spots.geojson"
-      });
-      window.pointsSource = map.getSource("points");
-
-    // Base layer: all points
+ 
     map.addLayer({
-        id: "all-points",
-        type: "circle",
-        source: "points",
-        paint: {
-        "circle-radius": 6,
-        "circle-color": "#4264fb"
-        }
-    });
-
-      // Highlight layer (only one point at a time)
-    map.addSource("highlight", {
-        type: "geojson",
-        data: {
-        type: "FeatureCollection",
-        features: []
-        }
-    });
-
-    map.addLayer({
-        id: "highlight-circle",
-        type: "circle",
-        source: "highlight",
-        paint: {
-          "circle-radius": 12,
-          "circle-color": "#e63946",
-          "circle-stroke-width": 2,
-          "circle-stroke-color": "#fff"
-        }
-      });
-    
-      // Optional: Add a label layer
-      map.addLayer({
-        id: "highlight-label",
-        type: "symbol",
-        source: "highlight",
-        layout: {
-          "text-field": ["get", "name"],
-          "text-size": 14,
-          "text-anchor": "top"
+    id: "points",
+    type: "circle",
+    source: {
+        "type": "geojson",
+        "data": './data/spots.geojson'
         },
-        paint: {
-          "text-color": "#000",
-          "text-halo-color": "#fff",
-          "text-halo-width": 1.5
-        }
-      });
+    paint: {
+        "circle-color":"#279"
+    }
+
+    });
 
     var popup = new mapboxgl.Popup({closeButton:false,closeOnClick:false})
 
-    map.on('mouseenter', 'all-points', function (e) {
+    map.on('mouseenter', 'points', function (e) {
         var coordinates = e.features[0].geometry.coordinates.slice();
         var name = e.features[0].properties.name;
         map.getCanvas().style.cursor = 'pointer';
@@ -88,14 +47,19 @@ map.on('load', function () {
     });
 
     // Change it back to a pointer when it leaves.
-    map.on('mouseleave', 'all-points', function () {
+    map.on('mouseleave', 'points', function () {
         map.getCanvas().style.cursor = '';
         popup.remove();
     });
 
     map.on('load', function () {
-        window.pointsSource = map.getSource('all-points');
+        // existing code...
+      
+        window.pointsSource = map.getSource('points');
       });
-
+    /*map.on('click','points',function (e) {
+        var pointIdentifier = e.features[0].properties.id
+        //document.getElementById('pointID').innerHTML = pointIdentifier;
+    });*/
 
 });
