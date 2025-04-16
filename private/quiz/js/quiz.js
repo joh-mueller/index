@@ -169,163 +169,157 @@
     }
   ];
 
+  const quizContainer = document.getElementById("quiz");
+  const resultsContainer = document.getElementById("results");
+  const startButton = document.getElementById("start");
+  const previousButton = document.getElementById("previous");
+  const nextButton = document.getElementById("next");
+
+  let currentSlide = 0;
+  let numCorrect = 0;
 
   function buildQuiz() {
-    // we'll need a place to store the HTML output
     const output = [];
 
-    // for each question...
     myQuestions.forEach((currentQuestion, questionNumber) => {
-      // we'll want to store the list of answer choices
       const answers = [];
 
-
-      // and for each available answer...
-      for (letter in currentQuestion.answers) {
-        // ...add an HTML radio button
+      for (let letter in currentQuestion.answers) {
         answers.push(
           `<label class="radiobutton">
-             <input type="radio" name="question${questionNumber}" value="${letter}">
+             <input type="radio" name="question${questionNumber}" value="${letter}" data-question="${questionNumber}">
              <span class="checkmark">${currentQuestion.answers[letter]}</span>
            </label>`
         );
       }
 
-      // add this question and its answers to the output
       output.push(
         `<div class="slide">
            <div class="intro"> ${currentQuestion.intro}</div>
            <div class="photo"> <img id="pic" src="${currentQuestion.source}"/> </div>
            <div class="info"> ${currentQuestion.info}</div>
+           <div class="question">${currentQuestion.question}</div>
            <div class="answers"> ${answers.join("")} </div>
          </div>`
       );
     });
 
-
-    // finally combine our output list into one string of HTML and put it on the page
     quizContainer.innerHTML = output.join("");
   }
 
   function showResults() {
-    // gather answer containers from our quiz
-    const answerContainers = quizContainer.querySelectorAll(".answers");
+    let message = "";
 
-    // keep track of user's answers
-    let numCorrect = -1;
-
-    // for each question...
-    myQuestions.forEach((currentQuestion, questionNumber) => {
-      // find selected answer
-      const answerContainer = answerContainers[questionNumber];
-      const selector = `input[name=question${questionNumber}]:checked`;
-      const userAnswer = (answerContainer.querySelector(selector) || {}).value;
-
-      // if answer is correct
-      if (userAnswer === currentQuestion.correctAnswer) {
-        // add to the number of correct answers
-        numCorrect++;
-
-        // color the answers green
-        answerContainers[questionNumber].style.color = "#44AF69";
-      } else {
-        // if answer is wrong or blank
-        // color the answers red
-        answerContainers[questionNumber].style.color = "#D62246";
-      }
-    });
-
-    // show number of correct answers out of total
     if (numCorrect < 5) {
-      resultsContainer.innerHTML = `Oh well: ${numCorrect} out of ${myQuestions.length-1}`;
+      message = `Oh well: ${numCorrect} out of ${myQuestions.length - 1} correct`;
+    } else if (numCorrect < 8) {
+      message = `Not bad: ${numCorrect} out of ${myQuestions.length - 1} correct`;
+    } else if (numCorrect < 11) {
+      message = `Almost perfect: ${numCorrect} out of ${myQuestions.length - 1} correct`;
+    } else {
+      message = `Outstanding: ${numCorrect} out of ${myQuestions.length - 1} correct`;
     }
-    else if (numCorrect >= 5 && numCorrect < 8){
-      resultsContainer.innerHTML = `Not bad: ${numCorrect} out of ${myQuestions.length-1}`;
-    }
-    else if (numCorrect >=8 && numCorrect < 11){
-      resultsContainer.innerHTML = `Almost perfect: ${numCorrect} out of ${myQuestions.length-1}`;
-    }
-    else if (numCorrect == 11){
-      resultsContainer.innerHTML = `Outstanding: ${numCorrect} out of ${myQuestions.length-1}`;
-    }
+
+    resultsContainer.innerHTML = message;
+    resultsContainer.scrollIntoView({ behavior: "smooth" });
   }
 
   function showSlide(n) {
     slides[currentSlide].classList.remove("active-slide");
     slides[n].classList.add("active-slide");
     currentSlide = n;
-  
 
     if (currentSlide === 0) {
       previousButton.style.display = "none";
       nextButton.style.display = "none";
       startButton.style.display = "inline-block";
-    }
-    else if (currentSlide == 1){
+    } else if (currentSlide === 1) {
       previousButton.style.display = "none";
       nextButton.style.display = "inline-block";
       startButton.style.display = "none";
-    }
-    else {
-      previousButton.style.display = "inline-block";
+    } else if (currentSlide === 11) {
+      nextButton.style.display = "none"; // Hide on final slide
+      startButton.style.display = "none";
+      // Optional: show results automatically on final slide
+    } else {
       nextButton.style.display = "inline-block";
-    }
-
-    
-    if (currentSlide === slides.length - 1) {
-      nextButton.style.display = "none";
-      submitButton.style.display = "inline-block";
-    } 
-    else {
-      submitButton.style.display = "none";
+      startButton.style.display = "none";
     }
   }
 
   function showNextSlide() {
-    showSlide(currentSlide + 1);
-    document.getElementById("progress").style.backgroundColor = "#227799FF";
-    document.getElementById("bar").style.backgroundColor = "#F1F1F1FF";
-    
-    if (currentSlide >= 1){
-      var elem = document.getElementById("bar");
-      elem.style.width = currentSlide/11*100 + '%';
+    if (currentSlide < slides.length - 1) {
+      showSlide(currentSlide + 1);
     }
 
-    /*function frame() {
-      if (width < currentSlide*10) {
-        width = width+1;
-        elem.style.width = width + '%';
-      }
-    }*/
+    // Fortschrittsanzeige
+    if (currentSlide >= 1) {
+      const elem = document.getElementById("bar");
+      elem.style.width = (currentSlide / 11) * 100 + '%';
+    }
+
   }
 
   function showPreviousSlide() {
-    showSlide(currentSlide - 1);
-    var elem = document.getElementById("bar");
-    elem.style.width = currentSlide/11*100 + '%';
+    if (currentSlide > 0) {
+      showSlide(currentSlide - 1);
+    }
 
-  
+    const elem = document.getElementById("bar");
+    elem.style.width = (currentSlide / 11) * 100 + '%';
   }
 
-  const quizContainer = document.getElementById("quiz");
-  const resultsContainer = document.getElementById("results");
-  const submitButton = document.getElementById("submit");
-
-  // display quiz right away
+  // Quiz anzeigen
   buildQuiz();
-
-  const startButton = document.getElementById("start");
-  const previousButton = document.getElementById("previous");
-  const nextButton = document.getElementById("next");
   const slides = document.querySelectorAll(".slide");
-  let currentSlide = 0;
-
   showSlide(0);
 
-  // on submit, show results
+  const answeredQuestions = new Set();
+
+  quizContainer.addEventListener("change", function (e) {
+    if (e.target.matches("input[type=radio]")) {
+      const selected = e.target;
+      const questionNumber = parseInt(selected.dataset.question);
+      const currentQuestion = myQuestions[questionNumber];
+      const answerContainers = quizContainer.querySelectorAll(".answers");
+      const answerContainer = answerContainers[questionNumber];
+      const allOptions = answerContainer.querySelectorAll("label");
+  
+      // Reset styles
+      allOptions.forEach(label => {
+        label.style.backgroundColor = "";
+      });
+  
+      // Mark selected answer red or green
+      if (selected.value === currentQuestion.correctAnswer) {
+        selected.parentElement.style.backgroundColor = "#44AF69"; // Green
+        if (!answeredQuestions.has(questionNumber)) {
+          numCorrect++;
+          answeredQuestions.add(questionNumber);
+        }
+      } else {
+        selected.parentElement.style.backgroundColor = "#D62246"; // Red
+  
+        // Also highlight the correct answer
+        const correctOption = answerContainer.querySelector(`input[value="${currentQuestion.correctAnswer}"]`);
+        if (correctOption) {
+          correctOption.parentElement.style.backgroundColor = "#44AF69";
+        }
+  
+        if (!answeredQuestions.has(questionNumber)) {
+          answeredQuestions.add(questionNumber);
+        }
+      }
+  
+      // ✅ Automatically show results if this is the last question
+      if (questionNumber === myQuestions.length - 1) {
+        showResults();
+      }
+    }
+  });
+
+  // Buttons aktivieren
   startButton.addEventListener("click", showNextSlide);
-  submitButton.addEventListener("click", showResults);
   previousButton.addEventListener("click", showPreviousSlide);
   nextButton.addEventListener("click", showNextSlide);
 })();
-
