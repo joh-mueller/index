@@ -70,7 +70,7 @@ map.on('load', function () {
 
     var popup = new mapboxgl.Popup({closeButton:false,closeOnClick:false})
 
-    map.on('mouseenter', 'points', function (e) {
+    map.on('mouseenter', 'all-points', function (e) {
         var coordinates = e.features[0].geometry.coordinates.slice();
         var name = e.features[0].properties.name;
         map.getCanvas().style.cursor = 'pointer';
@@ -88,13 +88,13 @@ map.on('load', function () {
     });
 
     // Change it back to a pointer when it leaves.
-    map.on('mouseleave', 'points', function () {
+    map.on('mouseleave', 'all-points', function () {
         map.getCanvas().style.cursor = '';
         popup.remove();
     });
 
     map.on('load', function () {
-        window.pointsSource = map.getSource('points');
+        window.pointsSource = map.getSource('all-points');
       });
 
 
